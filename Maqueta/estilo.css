@@ -1,0 +1,126 @@
+/*FUENTES*/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster|Exo:700|Pacifico);
+
+/*ESTILO*/
+
+body {
+    background-color: #000;
+    font-family: "Helvetica", serif;
+}
+#header {
+    width: 100%;
+    min-width: 1024px;
+    background-size: cover;
+    background-image: url(Images/cowboy-wallpapers%202.jpg);
+    height: 220px;
+    overflow: hidden;
+}
+#trademark {
+    font-family: "Lobster", cursive;
+    padding: 0 0 0 100px;
+    color: #f3cc15;
+    font-size: 4.5em;
+}
+#navbar {
+    font-family: "Exo", sans-serif;
+    height: 36px;
+    min-width: 480px;
+    width: 54%;
+    background: #000;
+}
+#navbar .inbar {
+    display: block;
+    height: 36px;
+}
+#navbar ul, #navbar ul li {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+}
+#navbar ul li {
+    float: left;
+    display: block;
+    line-height: 36px;
+}
+#navbar ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+#navbar ul li a span {
+    padding: 0 60px 0 0;
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    margin-left: 20px;
+    font-size: 24px;
+}
+#navbar .navhome a, #navbar navhome a:hover {
+    background-color: #f0f0f0;
+    border-radius: 15px 15px 0 0;
+    height: 36px;
+    line-height: 36px;
+    color: #000;
+}
+#navbar ul li a:hover{
+    background-color: #bab7b7;
+    border-radius: 15px 15px 0 0;
+    height: 36px;
+    line-height: 36px;
+    color: #000;
+}
+#section {
+    width: 100%;
+    min-width: 1024px;
+    height: 800px;
+    clear: both;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+#footer {
+    width: 100%;
+    min-width: 1024px;
+    height: 80px;
+    clear: both;
+    background-color: #f0f0f0;
+}
+#footer a {
+    text-decoration: none;
+}
+#left {
+    margin-left: 3%;
+    width: 30%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+#center {
+    width: 33%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+#right {
+    margin-right: 3%;
+    width: 30%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    text-align: right;
+}
+#footerLink {
+    height: 10%;
+    color: black;
+    font-size: 0.8em;
+}
+#socialBlock {
+    margin-top: 2%;
+    clear: both;
+    height: 30%;
+}

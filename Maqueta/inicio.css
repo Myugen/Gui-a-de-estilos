@@ -1,0 +1,54 @@
+#sliderDemo {
+    margin: 10px auto;
+    width: 1000px;
+    height: 375px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(Images/zapatilla.jpg);
+}
+hr {
+    border: 0;
+    height: 2px;
+    text-align: center;
+    width: 90%;
+    min-width: 1000px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #000, #f0f0f0);
+}
+#blockNews {
+    clear: both;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    height: 350px;
+}
+#news {
+    font-family: "Verdana", serif;
+    width: 31%;
+    margin: 5px 1% 0 1%;
+    height: 340px;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    border-style: solid;
+}
+#news h2 {
+    padding: 5px 0 0 15px;
+    
+}
+#news p {
+    padding: 5px 0 0 15px;
+}
+#news a {
+    vertical-align: bottom;
+    text-align: center;
+}
+#moreNews {
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    text-align: center;
+}
+#moreNews a p {
+    font-family: "Verdana", serif;
+    font-size: 0.8em;
+}

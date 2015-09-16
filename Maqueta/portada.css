@@ -1,0 +1,84 @@
+/*FUENTES*/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster|Exo:700|Pacifico);
+
+/*ESTILO*/
+
+body {
+    background-color: #000;
+}
+
+#portada {
+    background-size: cover;
+    width: 100%;
+    min-width: 1024px;
+    height: 720px;
+    background-image: url(Images/cowboy-wallpapers.jpg);
+}
+
+#slogan {
+    font-family: "Pacifico", cursive;
+    padding: 150px 0 0 100px;
+    color: #f08af0;
+}
+#trademark {
+    font-family: "Lobster", cursive;
+    padding-left: 100px;
+    color: #f3cc15;
+    font-size: 4.5em;
+    margin-top: -35px;
+}
+a {
+    text-decoration: none;
+}
+#enter {
+    font-family: "Exo", sans-serif;
+    margin: 150px 0 0 250px;
+    font-size: 3em;
+}
+#enterLink{
+    color: #f0f0f0;
+}
+#enterLink:hover {
+    color:#b9b8b3;
+}
+#footer {
+    width: 100%;
+    min-width: 1024px;
+    height: 80px;
+    clear: both;
+    background-color: #f0f0f0;
+}
+#left {
+    margin-left: 3%;
+    width: 30%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+#center {
+    width: 33%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+#right {
+    margin-right: 3%;
+    width: 30%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    text-align: right;
+}
+#footerLink {
+    font-family: "Verdana", serif;
+    height: 10%;
+    color: black;
+    font-size: 0.8em;
+}
+#socialBlock {
+    margin-top: 2%;
+    clear: both;
+    height: 30%;
+}
